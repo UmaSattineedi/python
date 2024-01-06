@@ -1,0 +1,5 @@
+val=int(input())
+while(val%7!=0):
+    val=int(input())
+else:
+    print("%d is divisible by 7" %val)
